@@ -4,13 +4,14 @@
  */
 package co.vinni.parqueadero.datos;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author Vinni ®
  */
-public class Carro {
+public class Carro implements Serializable {
     private String placa;
     private int modelo;
     private Date horaIngreso ;
